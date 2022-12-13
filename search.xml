@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>安装butterfly主题并vercel部署绑定自定义域名</title>
+      <link href="/posts/hexo2.html"/>
+      <url>/posts/hexo2.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装butterfly主题-用git安装"><a href="#安装butterfly主题-用git安装" class="headerlink" title="安装butterfly主题(用git安装)"></a>安装butterfly主题(用git安装)</h2><p>在根目录打开Git Bash,输入以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure><p><img src="https://z4a.net/images/2022/12/11/hexo-25.png"><br>安装完成后，就在根目录&#x2F;node_modules文件夹下找到hexo-theme-butterfly<br><img src="https://z4a.net/images/2022/12/11/hexo-26.png"></p><h2 id="应用butterfly主题"><a href="#应用butterfly主题" class="headerlink" title="应用butterfly主题"></a>应用butterfly主题</h2><p>在根目录下的_config.yml中修改配置，找到theme,修改为buterfly并保存</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: butterfly</span><br></pre></td></tr></table></figure><p>下载插件，在Git Bash中输入以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><p>完成后在根目录下创建新文件命名_config.butterfly.yml并把刚才安装的hexo-theme-butterfly中的_config.yml里的内容复制到里面<br>好了，到这butterfly就安装完成了.后期会介绍如何配置成自己喜欢的页面</p><h2 id="将博客部署到自己的域名-不用购买服务器"><a href="#将博客部署到自己的域名-不用购买服务器" class="headerlink" title="将博客部署到自己的域名(不用购买服务器)"></a>将博客部署到自己的域名(不用购买服务器)</h2><h3 id="注册vercel（因为某些原因我在手机端操作）"><a href="#注册vercel（因为某些原因我在手机端操作）" class="headerlink" title="注册vercel（因为某些原因我在手机端操作）"></a>注册vercel（因为某些原因我在手机端操作）</h3><p>(1)打开vercel注册页面( <a href="https://vercel.com/signup">https://vercel.com/signup</a> ),注册时用 Github Gitlab或Bitbucket进行授权且需要绑定手机号。(建议使用 Github 进行授权)<br>(2)注册完后关联github账户。<br>(3)访问 <a href="https://vercel.com/new">https://vercel.com/new</a> 新建项目，选择github以继续，然后选择之前创建的用户名.github.io的仓库，点击仓库后面的蓝色按钮。<br><img src="https://z4a.net/images/2022/12/11/hexo-21.jpg"><br>(4)点击后再次点击页面中的蓝色按钮，(项目名称若不符合请修改),等待一会应该就部署好了。<br><img src="https://z4a.net/images/2022/12/11/hexo-22.jpg"><br>(5)这时点击右上角的蓝色按钮进入控制面板，点击右上角有个visit domains,可以看到vercel已经给我们了一个二级域名，<s>可以通过这个域名访问我们的网站</s>前不久被屏蔽了，这时我们在输入框里填入自己的域名，点击add(如果你输入的是一级域名，需要解析两条记录，如果是二级会让你解析一条记录。)<br><img src="https://z4a.net/images/2022/12/11/hexo-23.jpg"><br><img src="https://z4a.net/images/2022/12/11/hexo-24.jpg"><br>(6)我的域名用的是腾讯云的，打开域名解析的控制台，将解析记录解析进去。<br>(7)解析好后再回到vercel,过一会应该就会显示解析成功。<br>(8)这样我们就部署好了，现在通过自己的域名可以访问网站了。下期将如何自定义页面。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初步构建建一个hexo博客</title>
+      <link href="/posts/hexo1.html"/>
+      <url>/posts/hexo1.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="小声bb"><a href="#小声bb" class="headerlink" title="小声bb"></a>小声bb</h2><p>之前在网上看到过很多大佬们的博客，心生羡慕，就想着弄一个博客玩玩，在网上搜了一下，就选择了hexo，因为当时没有服务器，所以没用wordpress,我基本上按照各大佬的教程来搞的，废话不多说上教程。</p><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><h3 id="1-安装note"><a href="#1-安装note" class="headerlink" title="1.安装note"></a>1.安装note</h3><p>(1) 打开note下载地址 <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>  打开后选择要下载的版本进行下载。<br><img src="https://z4a.net/images/2022/12/11/hexo-1.png"><br>(2) 下载完成后，然后和安装windows软件没区别，一直下一步。接着用windows键+R键打开运行框<br><img src="https://z4a.net/images/2022/12/11/hexo-2.png"><br>(3) 在运行框里输入cmd，然后点击运行<br><img src="https://z4a.net/images/2022/12/11/hexo-3.png"><br>(4) 运行在出来的黑框里输入 node -v 看到版本信息即为下载成功<br><img src="https://z4a.net/images/2022/12/11/hexo-4.png">   </p><h3 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h3><p>(1)再次win+R输入cmd，打开cmd窗口，输入npm install -g hexo-cli</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p><img src="https://z4a.net/images/2022/12/11/hexo-5.png"><br>(2)等待安装完毕，输入hexo -v 看到版本信息即为下载成功<br><img src="https://z4a.net/images/2022/12/11/hexo-6.png">   </p><h3 id="3-注册github-电脑如果注册的时候遇到问题建议用手机注册"><a href="#3-注册github-电脑如果注册的时候遇到问题建议用手机注册" class="headerlink" title="3.注册github(电脑如果注册的时候遇到问题建议用手机注册)"></a>3.注册github(电脑如果注册的时候遇到问题建议用手机注册)</h3><p><br>(1)打开github官网<a href="https://github.com/">https://github.com</a> (因为github时而抽风，建议挂梯子)</br><br><br>(2)点击右上Sigh up注册(直接打开<a href="https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=/&amp;source=header-home">https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home</a> 也行</br><br><img src="https://z4a.net/images/2022/12/11/hexo-7.jpg"><br>(3)依次输入邮箱、密码、用户名，然后邮箱完成验证即可</p><h3 id="4-创建github仓库"><a href="#4-创建github仓库" class="headerlink" title="4.创建github仓库"></a>4.创建github仓库</h3><p><br>(1)登录github后打开<a href="https://github.com/new">https://github.com/new</a></br><br>(2)Repository为用户名+github.io<br>   Description为仓库说明(选填)<br>   打钩Add a README file 创建一个README.md文件<br>   点击Creat repository的绿色按钮创建仓库<br><img src="https://z4a.net/images/2022/12/11/hexo-8.png">   </p><h3 id="5-安装git"><a href="#5-安装git" class="headerlink" title="5.安装git"></a>5.安装git</h3><p><br>(1)打开git的windows下载地址( <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a> )</br><br><img src="https://z4a.net/images/2022/12/11/hexo-9.png"><br><br>(2)点击 64-bit Git for Windows Setup.进行下载(官网下载很慢，可自行网络查找镜像下载)</br><br>(3)下载后，然后和安装windows软件没区别，一直下一步。</p><h3 id="6-连接到github"><a href="#6-连接到github" class="headerlink" title="6.连接到github"></a>6.连接到github</h3><p><br>(1)安装完后，打开Git Bash</br><br><img src="https://z4a.net/images/2022/12/11/hexo-10.png"><br>(2)输入以下指令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;这里修改为你github的用户名&quot;</span><br><span class="line">git config --global user.email &quot;这里修改为你github的邮箱&quot;</span><br></pre></td></tr></table></figure><p>如果没有报错的话就是成功了<br><img src="https://z4a.net/images/2022/12/11/hexo-11.png"><br>输入 git config -l 可以检查一下<br><img src="https://z4a.net/images/2022/12/11/hexo-12.png"><br>(3)生成公钥ssh，执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;这里改为你github的邮箱&quot;</span><br></pre></td></tr></table></figure><p>(4)然后打开C:\Users\Administrator.ssh ,里面看到id_rsa为私钥，id_rsa.pub为公钥<br><img src="https://z4a.net/images/2022/12/11/hexo-13.png"><br>(5)用记事本打开id_rsa.pub ，复制里面所有内容<br><img src="https://z4a.net/images/2022/12/11/hexo-14.png"><br>(6)进入github,点击右上角头像里的settings，然后在设置页选择SSH and GPG keys，点击new ssh keys<br><img src="https://z4a.net/images/2022/12/11/hexo-15.png"><br>(7)在页面中，title里填备注例如：hexo-ssh,key里填写刚才复制的内容，然后按绿色按钮<br><img src="https://z4a.net/images/2022/12/11/hexo-16.png"><br>(8)在Git Bash运行命令测试连接</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>出现以下界面为连接成功<br><img src="https://z4a.net/images/2022/12/11/hexo-17.png"></p><h3 id="7-初始化hexo"><a href="#7-初始化hexo" class="headerlink" title="7.初始化hexo"></a>7.初始化hexo</h3><p><br>(1)在桌面(其他路径也行)创建一个新文件夹，命名blog(其他也行)</br><br><img src="https://z4a.net/images/2022/12/11/hexo-18.png"><br>(2)在该文件夹右键选择Git Bash,执行以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init </span><br><span class="line">npm i</span><br></pre></td></tr></table></figure><p><img src="https://z4a.net/images/2022/12/11/hexo-19.png"><br>(3)执行完后可以看到文件夹里已经多了几个文件，这时再执行hexo sever(hexo s也行)，就可以通过本地预览，在浏览器输入<a href="http://localhost:4000/">http://localhost:4000/</a> 看到以下模样就说明构建成功<br><img src="https://z4a.net/images/2022/12/11/hexo-20.png"></p><h3 id="8-托管到github"><a href="#8-托管到github" class="headerlink" title="8.托管到github"></a>8.托管到github</h3><p><br>(1)我们任在该目录Git Bash下输入以下命令安装上传到github插件</br></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>(2)打开_config.yml,在最后中修改</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:你的github用户名/你的github用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>(3)然后在Git Bash执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><p>deploy时可能要你输入 username(github用户名)和 password(github账号密码)<br>(4)<s>这时候在 用户名.github.io 上就可以看到博客了</s><br>最近github.io已经全面国内风控了，建议绑定自定义域名.到这里hexo的部署就完成了，下一期将讲述butterfly主题安装并绑定自定义域名。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>周记②</title>
+      <link href="/posts/undefined.html"/>
+      <url>/posts/undefined.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="2022-10-22-周六-多云"><a href="#2022-10-22-周六-多云" class="headerlink" title="2022.10.22                                        周六                                                   多云"></a>2022.10.22                                        周六                                                   多云</h2><p>心情指数:☆☆☆☆☆</p><h3 id="月考总结"><a href="#月考总结" class="headerlink" title="月考总结"></a>月考总结</h3><p>今天仍是美好的一天。大前天进行了月考，成绩出来了，总体来说，不太满意。语文满分120只考了99，数学失了一分，英语作文扣了5分，其他科成绩不记得了，班级第九。副科总体不好。对此做出以下评价：</p><p>1.语文总体成绩欠佳，作文有待提升。<br>2.数学失分不当，应保持满分。<br>3.英语衡水体欠佳。<br>4.政治总分数较低，知识点应掌握的更牢固一些。<br>5.生物总体还行，某些知识掌握不牢。<br>6.地理应多增一些常识，一些课外知识。<br>7.历史总体较差，知识点掌握不牢。</p><p>为此做出以下改正：<br>1.语文坚持练字，上课知识总结牢固。<br>2.数学继续进步，不断强化思维体系。<br>3.英语勤加练习衡水体，作文写得更好一些。<br>4.政治背书时不断激发潜能，以便记忆牢固。<br>5.生物背完书时多思考，理解该课知识体系与要点内容。<br>6.地理背完后，要运用到各种题型当中，以便更好掌握。<br>7.历史背书时，应更认真思索，牢固掌握</p><p>至此，今后学习中应拼搏努力，健康成长！</p><h3 id="考试意义分析总结"><a href="#考试意义分析总结" class="headerlink" title="考试意义分析总结"></a>考试意义分析总结</h3><p>说起考试，许多学生难免害怕，害怕考得不好，害怕被老师批评，害怕被家长责骂，害怕被朋友嘲笑，害怕自己不行。这都正常，这些害怕促进自己发展。但是，一旦过度，将陷入无底深渊。因此，不妨换个角度，考试就是一次考试，不考虑其他，自己会多少写多少，不会就自己想着写。考试是一种对自己所学知识的一次总结，我其实对于分数和名次并不太在乎，因为这些真的不重要，当然，对我而言。当你因考试失利而沮丧时，不妨认真想想，考试为了考试吗？可能你有点不理解，其也就是说你所对考试做的一切仅仅为了考试吗？如果如此，学习便失去了意义。虽说你考好，一直到大学，到社会，一切的一切，仅会像填空题一样简单吗？当你在生活中遇到困难与挫折，难道会自动跳出4个选项吗？所以学习并非只为考试所学，不要为了那几分，放弃对学习的兴趣，放弃对生活的希望。考试就好比一种享受，当你对待他的角度与方法不同，他所带给你的感受也不同，许多人不理解，不妨格局打开，情商放高，你将收获新的体验。<br>再说学习，你认为学习苦，学习累，是因为学习让你感到不快乐不自由，学习让你感到难受，感到枯燥无味，感到无聊没趣，老师责骂让你不舒服，朋友孤立让你失去友谊，严格的制度和紧张的氛围逼迫你无法忍受，这一切使得你讨厌学习，讨厌学校，逐渐失去信心。但是老师责骂让你奋进，同学孤立使你努力，这些是你最终都向上发展。你若盛开，蝴蝶自来。是金子总会发光的，当你放下一切，追求一样事物，获得成就，那放下的一切便来了。将学习当成一种快乐，将心中的不满与悲伤的心情放一放，用自己最好的状态去迎接世间的一切，将快乐传递，将emo发泄掉。听自己喜欢的歌，走遍自己的快乐，画一幅岁月如梦初醒…</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 周记 </tag>
+            
+            <tag> 校园 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>周记①</title>
+      <link href="/posts/undefined.html"/>
+      <url>/posts/undefined.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="2022-10-15-周六-晴"><a href="#2022-10-15-周六-晴" class="headerlink" title="2022.10.15                                        周六                                                   晴"></a>2022.10.15                                        周六                                                   晴</h2><p>心情指数:☆☆☆☆☆</p><h3 id="散记"><a href="#散记" class="headerlink" title="散记"></a>散记</h3><p>今天是美好的一天。每天皆是。秋天来临，今日却阳光明照，云彩异常美丽，使人感到心情愉悦。与往日不同，今天是周六，很开心，下午打扫了卫生，晚上和伙伴玩耍，这何尝不是一种享受呢？尽管每天需上课，跑操，让人觉得不好玩，但我感觉学习也是一种快乐啊！</p><p>你只要从另一个角度看，你会发现这个世界处处都很快乐，处处都是享受，不是吗？像语文，仔细品味，你会发现很美，一篇课文，给我带来沉浸的体验：像数学，重复切换思维与角度，并非枯燥无味，那一道道题目，激发着我的潜能：像英语，一个个跳动的字母，一串串句子，却让人感觉简单明了。那有趣的语法，使我感到思维的碰撞。这一切，不都很有趣吗？再看生活，“如果人生仅去求得两点一线的一帆风顺，那么生命也就失去了存在的意义”，我们无需对那些小事，那些挫折，那些磨难所被打倒，格局打开，时刻抱有乐观的心态，我们才能在那些困难面前变得逐渐成熟，随着时间交替，日积月累，我们明白越多，领悟越多，我们的潜能被不断激发，找到自己所喜爱的方面，物质不灭，精神永存，我们一生去追求的并不是那些到头来自己所厌烦，所不想做的事，而是那些我们一直在追求求想要达到的境界，做自己喜欢的事，人生的意义才在此处。少年有梦，不应至于心动，更应付诸行动。梦想是一个人想要达到的地布，但梦想绝不是考上名牌大学什么。想过没有，就算考上名牌大学，踏入社会应该做什么，若儿时未想到此，那么踏入社会你将变得迷茫，不知所措，这样的人生便有失去了存在的意义。</p><p>所以现在就拼搏吧！！！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 周记 </tag>
+            
+            <tag> 校园 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

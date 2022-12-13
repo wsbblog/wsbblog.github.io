@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>wsbのblog</title>
+  <icon>https://imfur.cn/icon.png</icon>
+  
+  <link href="https://imfur.cn/atom.xml" rel="self"/>
+  
+  <link href="https://imfur.cn/"/>
+  <updated>2022-12-11T13:42:45.146Z</updated>
+  <id>https://imfur.cn/</id>
+  
+  <author>
+    <name>wsb</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安装butterfly主题并vercel部署绑定自定义域名</title>
+    <link href="https://imfur.cn/posts/hexo2.html"/>
+    <id>https://imfur.cn/posts/hexo2.html</id>
+    <published>2022-12-11T13:41:51.000Z</published>
+    <updated>2022-12-11T13:42:45.146Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装butterfly主题-用git安装&quot;&gt;&lt;a href=&quot;#安装butterfly主题-用git安装&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初步构建建一个hexo博客</title>
+    <link href="https://imfur.cn/posts/hexo1.html"/>
+    <id>https://imfur.cn/posts/hexo1.html</id>
+    <published>2022-11-11T06:49:51.000Z</published>
+    <updated>2022-12-11T13:43:31.925Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;小声bb&quot;&gt;&lt;a href=&quot;#小声bb&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周记②</title>
+    <link href="https://imfur.cn/posts/undefined.html"/>
+    <id>https://imfur.cn/posts/undefined.html</id>
+    <published>2022-10-22T11:50:52.000Z</published>
+    <updated>2022-12-11T06:52:09.080Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2022-10-22-周六-多云&quot;&gt;&lt;a href=&quot;#2022-10-22-周六-多云&quot; class=&quot;headerlink&quot; title=&quot;2022.10.22                                        周六       </summary>
+        
+      
+    
+    
+    
+    
+    <category term="周记" scheme="https://imfur.cn/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+    <category term="校园" scheme="https://imfur.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周记①</title>
+    <link href="https://imfur.cn/posts/undefined.html"/>
+    <id>https://imfur.cn/posts/undefined.html</id>
+    <published>2022-10-15T06:17:52.000Z</published>
+    <updated>2022-12-11T06:51:44.841Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2022-10-15-周六-晴&quot;&gt;&lt;a href=&quot;#2022-10-15-周六-晴&quot; class=&quot;headerlink&quot; title=&quot;2022.10.15                                        周六         </summary>
+        
+      
+    
+    
+    
+    
+    <category term="周记" scheme="https://imfur.cn/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+    <category term="校园" scheme="https://imfur.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
+  
+</feed>
