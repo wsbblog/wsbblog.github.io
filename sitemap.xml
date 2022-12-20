@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://imfur.cn/about/index.html</loc>
+    <loc>https://imfur.cn/link/index.html</loc>
     
-    <lastmod>2022-12-15</lastmod>
+    <lastmod>2022-12-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://imfur.cn/link/index.html</loc>
+    <loc>https://imfur.cn/about/index.html</loc>
     
     <lastmod>2022-12-15</lastmod>
     
