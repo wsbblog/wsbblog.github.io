@@ -3,4 +3,4 @@ var divEle=document.querySelector('div'); dateTimes();  function dateTimes(){
     dateHours='0'+dateHours; } if(parseInt(dateMinutes)<10){
     dateMinutes='0'+dateMinutes; } if(parseInt(dateSeconds)<10){
     dateSeconds='0'+dateSeconds; }
-    btf.snackbarShow('新年倒计时：'+dateDays+'天'+dateHours+'时'+dateMinutes+'分'+dateSeconds+'秒',) }
+btf.snackbarShow('新年倒计时：'+dateDays+'天'+dateHours+'时'+dateMinutes+'分'+dateSeconds+'秒',) }
