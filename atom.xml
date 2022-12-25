@@ -6,7 +6,7 @@
   <link href="https://imfur.cn/atom.xml" rel="self"/>
   
   <link href="https://imfur.cn/"/>
-  <updated>2022-12-23T07:54:18.825Z</updated>
+  <updated>2022-12-25T09:24:48.610Z</updated>
   <id>https://imfur.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给自己的博客添加上节日通知(弹窗与侧边栏)</title>
+    <link href="https://imfur.cn/posts/hexo3.html"/>
+    <id>https://imfur.cn/posts/hexo3.html</id>
+    <published>2022-12-25T09:24:00.000Z</published>
+    <updated>2022-12-25T09:24:48.610Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    
+  </entry>
   
   <entry>
     <title>安装butterfly主题并vercel部署绑定自定义域名</title>
