@@ -42,4 +42,4 @@ function SAONotify(title,message,action){
     }, 1e3);
   
   }
-SAONotify("节日倒计时","今天就是圣诞节！祝你圣诞节快乐！<br>祝你圣诞节能收到礼物哦!</br>距离2023年元旦还有8天!","location.reload(true);");
+SAONotify("节日倒计时","距离2023年元旦还有6天!","location.reload(true);");
