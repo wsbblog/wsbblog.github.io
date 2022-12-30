@@ -42,4 +42,4 @@ function SAONotify(title,message,action){
     }, 1e3);
   
   }
-SAONotify("节日倒计时","距离2023年元旦还有2天!","location.reload(true);");
+SAONotify("节日倒计时","距离2023年元旦还有1天!","location.reload(true);");
