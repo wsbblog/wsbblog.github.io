@@ -48,7 +48,7 @@ var newYear = () => {
     // 元宝飘落
     jQuery(document).ready(function($) {
         $('#newYear').wpSuperSnow({
-            flakes: ['https://cdn.leonus.cn/img/yb1.webp', 'https://cdn.leonus.cn/img/yb2.webp', 'https://cdn.leonus.cn/img/yb3.webp'],
+            flakes: ['https://z4a.net/images/2023/01/02/yb1.webp', 'https://z4a.net/images/2023/01/02/yb2.webp', 'https://z4a.net/images/2023/01/02/yb3.webp', 'https://z4a.net/images/2023/01/02/59dfc0c83d7faa533c46abf6f9076a45-removebg-preview.png'],
             totalFlakes: '100',
             zIndex: '999999',
             maxSize: '30',
