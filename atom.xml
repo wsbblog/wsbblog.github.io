@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>wsbのblog</title>
-  <icon>https://imfur.cn/icon.png</icon>
+  <icon>https://wsbblog.cn/icon.png</icon>
   
-  <link href="https://imfur.cn/atom.xml" rel="self"/>
+  <link href="https://wsbblog.cn/atom.xml" rel="self"/>
   
-  <link href="https://imfur.cn/"/>
+  <link href="https://wsbblog.cn/"/>
   <updated>2023-01-09T12:37:54.099Z</updated>
-  <id>https://imfur.cn/</id>
+  <id>https://wsbblog.cn/</id>
   
   <author>
     <name>wsb</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>给你的博客安上可爱的小兔叽春节倒计时</title>
-    <link href="https://imfur.cn/posts/hexo4.html"/>
-    <id>https://imfur.cn/posts/hexo4.html</id>
+    <link href="https://wsbblog.cn/posts/hexo4.html"/>
+    <id>https://wsbblog.cn/posts/hexo4.html</id>
     <published>2023-01-02T11:49:51.000Z</published>
     <updated>2023-01-09T12:37:54.099Z</updated>
     
@@ -29,16 +29,16 @@
     
     
     
-    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://wsbblog.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://wsbblog.cn/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>2022年度总结</title>
-    <link href="https://imfur.cn/posts/year2022.html"/>
-    <id>https://imfur.cn/posts/year2022.html</id>
+    <link href="https://wsbblog.cn/posts/year2022.html"/>
+    <id>https://wsbblog.cn/posts/year2022.html</id>
     <published>2022-12-30T14:10:00.000Z</published>
     <updated>2023-01-09T12:36:25.504Z</updated>
     
@@ -48,14 +48,14 @@
     
     
     
-    <category term="年度总结" scheme="https://imfur.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    <category term="年度总结" scheme="https://wsbblog.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>给自己的博客添加上节日通知(弹窗与侧边栏)</title>
-    <link href="https://imfur.cn/posts/hexo3.html"/>
-    <id>https://imfur.cn/posts/hexo3.html</id>
+    <link href="https://wsbblog.cn/posts/hexo3.html"/>
+    <id>https://wsbblog.cn/posts/hexo3.html</id>
     <published>2022-12-25T09:24:00.000Z</published>
     <updated>2023-01-09T12:19:03.496Z</updated>
     
@@ -65,16 +65,16 @@
     
     
     
-    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://wsbblog.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://wsbblog.cn/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>安装butterfly主题并vercel部署绑定自定义域名</title>
-    <link href="https://imfur.cn/posts/hexo2.html"/>
-    <id>https://imfur.cn/posts/hexo2.html</id>
+    <link href="https://wsbblog.cn/posts/hexo2.html"/>
+    <id>https://wsbblog.cn/posts/hexo2.html</id>
     <published>2022-12-11T13:41:51.000Z</published>
     <updated>2023-01-09T12:49:44.128Z</updated>
     
@@ -84,16 +84,16 @@
     
     
     
-    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://wsbblog.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://wsbblog.cn/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>初步构建建一个hexo博客</title>
-    <link href="https://imfur.cn/posts/hexo1.html"/>
-    <id>https://imfur.cn/posts/hexo1.html</id>
+    <link href="https://wsbblog.cn/posts/hexo1.html"/>
+    <id>https://wsbblog.cn/posts/hexo1.html</id>
     <published>2022-11-11T06:49:51.000Z</published>
     <updated>2023-01-09T12:47:26.273Z</updated>
     
@@ -103,16 +103,16 @@
     
     
     
-    <category term="教程" scheme="https://imfur.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://wsbblog.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="butterfly" scheme="https://imfur.cn/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://wsbblog.cn/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>周记②</title>
-    <link href="https://imfur.cn/posts/53443.html"/>
-    <id>https://imfur.cn/posts/53443.html</id>
+    <link href="https://wsbblog.cn/posts/53443.html"/>
+    <id>https://wsbblog.cn/posts/53443.html</id>
     <published>2022-10-22T11:50:52.000Z</published>
     <updated>2023-01-09T12:22:53.681Z</updated>
     
@@ -122,16 +122,16 @@
     
     
     
-    <category term="周记" scheme="https://imfur.cn/tags/%E5%91%A8%E8%AE%B0/"/>
+    <category term="周记" scheme="https://wsbblog.cn/tags/%E5%91%A8%E8%AE%B0/"/>
     
-    <category term="校园" scheme="https://imfur.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    <category term="校园" scheme="https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>周记①</title>
-    <link href="https://imfur.cn/posts/4098.html"/>
-    <id>https://imfur.cn/posts/4098.html</id>
+    <link href="https://wsbblog.cn/posts/4098.html"/>
+    <id>https://wsbblog.cn/posts/4098.html</id>
     <published>2022-10-15T06:17:52.000Z</published>
     <updated>2023-01-09T12:22:09.381Z</updated>
     
@@ -141,9 +141,9 @@
     
     
     
-    <category term="周记" scheme="https://imfur.cn/tags/%E5%91%A8%E8%AE%B0/"/>
+    <category term="周记" scheme="https://wsbblog.cn/tags/%E5%91%A8%E8%AE%B0/"/>
     
-    <category term="校园" scheme="https://imfur.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    <category term="校园" scheme="https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
