@@ -4,35 +4,17 @@ function reward(){
       html: '<b>请选择您的付款方式</b>',
       icon: 'info',
       showCancelButton: true,
-      confirmButtonText:
-        '<i class="fa-brands fa-QQ"></i> QQ支付',
       cancelButtonText:
         '<i class="fa-brands fa-weixin"></i> 微信支付',
-      confirmButtonColor: '#1677FF',
       cancelButtonColor: '#2AAE67',
     }).then((result) => {
-      if (result.isConfirmed) {
-        Swal.fire({
-          title: '感谢您',
-          html: '请打开QQ <b>[扫一扫]</b> 以充电',
-          imageUrl: 'https://z4a.net/images/2022/12/25/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__MsgID3760829767992065867skeycrypt_b0f3857b_6b553330ff1ac74ea93422fc725c6a3ammweb_appidwx_webfilehelper.jpg',
-          imageWidth: 175,
-          imageHeight: 175,
-          imageAlt: 'Custom image'
-        }).then((result) => {
-          Swal.fire(
-            '充电成功',
-            '感谢您的支持',
-            'success'
-          )
-        })
-      } else if (
+       if (
         result.dismiss === Swal.DismissReason.cancel
       ) {
         Swal.fire({
           title: '感谢您',
           html: '请打开微信 <b>[扫一扫]</b> 以充电',
-          imageUrl: 'https://z4a.net/images/2022/12/25/_cgi-bin_mmwebwx-bin_webwxgetmsgimg__MsgID7581765197610367714skeycrypt_b0f3857b_a51e07af84e016fdec54ddbf70734ecammweb_appidwx_webfilehelper.jpg',
+          imageUrl: 'https://preview.cloud.189.cn/image/imageAction?param=923C5847721EDFE2681A37C12A10D6F47039ED62FC9B5C82612F32E5A340B75412FF53A3CB77D0CB286AF52DBFC29AAE3D6EB82631BBCABF435D1FBE17CF0623B0D477F350ED1D67DCB90D71749FEE82DE5ACBF3E4F8C2320556E96250CB92F633F611850D378F3177BD0BB482B4F6004D0CFC22',
           imageWidth: 175,
           imageHeight: 175,
           imageAlt: 'Custom image'
