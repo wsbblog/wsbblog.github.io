@@ -1,3 +1,4 @@
+https://wsbblog.cn/reward/index.html
 https://wsbblog.cn/fcircle/index.html
 https://wsbblog.cn/link/index.html
 https://wsbblog.cn/posts/hexo2.html
@@ -7,7 +8,6 @@ https://wsbblog.cn/posts/year2022.html
 https://wsbblog.cn/posts/53443.html
 https://wsbblog.cn/posts/4098.html
 https://wsbblog.cn/posts/hexo3.html
-https://wsbblog.cn/reward/index.html
 https://wsbblog.cn/tags/index.html
 https://wsbblog.cn/about/index.html
 https://wsbblog.cn/
