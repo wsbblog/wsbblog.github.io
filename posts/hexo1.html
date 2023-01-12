@@ -247,7 +247,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
     else loadTwikoo()
   } else {
     window.loadOtherComment = () => {
-      loadTwikoo()
+      loadTwikoo() 
     }
   }
 })()</script></div><script>window.addEventListener('load', () => {
@@ -297,7 +297,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
       getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
     }
   }
-
+  
   const generateHtml = array => {
     let result = ''
 

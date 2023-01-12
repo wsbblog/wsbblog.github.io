@@ -3,119 +3,20 @@
     width: 100%;
     margin: auto;
   }
-/* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
-    background: linear-gradient(
-      -45deg,
-      #0ab4df,
-      #0575d1,
-      #a3e9eb,
-      #10e9ba,
-      #0debeb
-    );
-    box-shadow: 0 0 5px rgb(66, 68, 68);
-    position: relative;
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 10s ease infinite;
-    -moz-animation: Gradient 10s ease infinite;
-    animation: Gradient 10s ease infinite !important;
-  }
-  @-webkit-keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  @-moz-keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  @keyframes Gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  
-  /* 黑夜模式适配 */
-  [data-theme="dark"] #aside-content > .card-widget.card-info {
-    background: #191919ee;
-  }
-  
-  /* 个人信息Follow me按钮 */
-  #aside-content > .card-widget.card-info > #card-info-btn {
-    background-color: #3eb8be;
-    border-radius: 8px;
-  }
-  .pace {
-    -webkit-pointer-events: none;
-    pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    z-index: 2000;
-    position: fixed;
-    margin: auto;
-    top: 4px;
-    left: 0;
-    right: 0;
-    height: 8px;
-    border-radius: 8px;
-    width: 7rem;
-    background: #eaecf2;
-    border: 1px #e3e8f7;
-    overflow: hidden
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://tuchuang.voooe.cn/images/2023/01/12/zhuye.jpg);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
 }
-
-.pace-inactive .pace-progress {
-    opacity: 0;
-    transition: .3s ease-in
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background-image: url(https://tuchuang.voooe.cn/images/2023/01/12/zhuye.jpg);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
 }
-
-.pace .pace-progress {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    max-width: 200px;
-    position: absolute;
-    z-index: 2000;
-    display: block;
-    top: 0;
-    right: 100%;
-    height: 100%;
-    width: 100%;
-    /* linear-gradient(to right, #3494e6, #ec6ead) */
-    background: linear-gradient(to right, #43cea2, #3866ca);
-    animation: gradient 2s ease infinite;
-    background-size: 200%
-}
-
-.pace.pace-inactive {
-    opacity: 0;
-    transition: .3s;
-    top: -8px
+.loading-img {
+  background: url(https://tuchuang.voooe.cn/images/2023/01/12/wsb.png) no-repeat center center;
+  background-size: cover;
 }
