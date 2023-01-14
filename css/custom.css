@@ -9,13 +9,13 @@
   }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/01/12/zhuye.jpg);
+  background-image: url(https://tuchuang.voooe.cn/image/aU3cRhttps://tuchuang.voooe.cn/image/aUhJ8);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/01/12/zhuye.jpg);
+  background-image: url(https://tuchuang.voooe.cn/image/aU3cRhttps://tuchuang.voooe.cn/image/aUhJ8);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -89,4 +89,27 @@
   backdrop-filter: var(--backdrop-filter);
   padding: 4px;
   border-radius: 4px;
+}
+/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
 }
