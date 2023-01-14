@@ -9,13 +9,13 @@
   }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/image/aU3cRhttps://tuchuang.voooe.cn/image/aUhJ8);
+  background-image: url(https://tuchuang.voooe.cn/images/2023/01/14/zhuye.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/image/aU3cRhttps://tuchuang.voooe.cn/image/aUhJ8);
+  background-image: url(https://tuchuang.voooe.cn/images/2023/01/14/zhuye.jpg);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
