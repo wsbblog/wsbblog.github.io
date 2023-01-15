@@ -14,20 +14,6 @@ function createtime1() {
         "天啦!",
         "©2022-2023 By wsb",
     ];
-
-    setTimeout(
-        console.log.bind(
-            console,
-            `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
-            "color:#39c5bb",
-            "",
-            "color:#39c5bb",
-            "color:#39c5bb",
-            "",
-            "color:#39c5bb",
-            ""
-        )
-    );
 }
 
 createtime1();
