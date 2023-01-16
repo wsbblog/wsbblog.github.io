@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wsbblog.cn/undefined</loc>
+    
+    <lastmod>2023-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wsbblog.cn/undefined</loc>
+    
+    <lastmod>2023-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wsbblog.cn/yuming</loc>
+    
+    <lastmod>2023-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wsbblog.cn/fcircle/index.html</loc>
     
     <lastmod>2023-01-16</lastmod>
@@ -20,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/photoshop.html</loc>
+    <loc>https://wsbblog.cn/photoshop</loc>
     
     <lastmod>2023-01-15</lastmod>
     
@@ -47,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/hexo2.html</loc>
+    <loc>https://wsbblog.cn/hexo2</loc>
     
     <lastmod>2023-01-09</lastmod>
     
@@ -56,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/hexo1.html</loc>
+    <loc>https://wsbblog.cn/hexo1</loc>
     
     <lastmod>2023-01-09</lastmod>
     
@@ -65,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/hexo4.html</loc>
+    <loc>https://wsbblog.cn/hexo4</loc>
     
     <lastmod>2023-01-09</lastmod>
     
@@ -74,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/year2022.html</loc>
+    <loc>https://wsbblog.cn/year2022</loc>
     
     <lastmod>2023-01-09</lastmod>
     
@@ -83,25 +110,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/posts/53443.html</loc>
-    
-    <lastmod>2023-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wsbblog.cn/posts/4098.html</loc>
-    
-    <lastmod>2023-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wsbblog.cn/posts/hexo3.html</loc>
+    <loc>https://wsbblog.cn/hexo3</loc>
     
     <lastmod>2023-01-09</lastmod>
     
@@ -163,7 +172,7 @@
   </url>
   
   <url>
-    <loc>https://wsbblog.cn/tags/photoshop/</loc>
+    <loc>https://wsbblog.cn/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2023-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -171,6 +180,13 @@
   
   <url>
     <loc>https://wsbblog.cn/tags/%E7%99%BD%E5%AB%96/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wsbblog.cn/tags/photoshop/</loc>
     <lastmod>2023-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
