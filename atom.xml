@@ -18,8 +18,8 @@
   
   <entry>
     <title>申请俩免费二级域名(js.org,eu.org)</title>
-    <link href="https://wsbblog.cn/yuming"/>
-    <id>https://wsbblog.cn/yuming</id>
+    <link href="https://wsbblog.cn/posts/yuming/"/>
+    <id>https://wsbblog.cn/posts/yuming/</id>
     <published>2023-01-16T12:00:00.000Z</published>
     <updated>2023-01-16T13:31:09.542Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>获取一个Photoshop及图片编辑网站推荐</title>
-    <link href="https://wsbblog.cn/photoshop"/>
-    <id>https://wsbblog.cn/photoshop</id>
+    <link href="https://wsbblog.cn/posts/photoshop/"/>
+    <id>https://wsbblog.cn/posts/photoshop/</id>
     <published>2023-01-15T09:25:00.000Z</published>
     <updated>2023-01-15T09:16:42.730Z</updated>
     
@@ -58,8 +58,8 @@
   
   <entry>
     <title>给你的博客安上可爱的小兔叽春节倒计时</title>
-    <link href="https://wsbblog.cn/hexo4"/>
-    <id>https://wsbblog.cn/hexo4</id>
+    <link href="https://wsbblog.cn/posts/hexo4/"/>
+    <id>https://wsbblog.cn/posts/hexo4/</id>
     <published>2023-01-02T11:49:51.000Z</published>
     <updated>2023-01-09T12:37:54.099Z</updated>
     
@@ -77,8 +77,8 @@
   
   <entry>
     <title>2022年度总结</title>
-    <link href="https://wsbblog.cn/year2022"/>
-    <id>https://wsbblog.cn/year2022</id>
+    <link href="https://wsbblog.cn/posts/year2022/"/>
+    <id>https://wsbblog.cn/posts/year2022/</id>
     <published>2022-12-30T14:10:00.000Z</published>
     <updated>2023-01-09T12:36:25.504Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>给自己的博客添加上节日通知(弹窗与侧边栏)</title>
-    <link href="https://wsbblog.cn/hexo3"/>
-    <id>https://wsbblog.cn/hexo3</id>
+    <link href="https://wsbblog.cn/posts/hexo3/"/>
+    <id>https://wsbblog.cn/posts/hexo3/</id>
     <published>2022-12-25T09:24:00.000Z</published>
     <updated>2023-01-09T12:19:03.496Z</updated>
     
@@ -113,8 +113,8 @@
   
   <entry>
     <title>安装butterfly主题并vercel部署绑定自定义域名</title>
-    <link href="https://wsbblog.cn/hexo2"/>
-    <id>https://wsbblog.cn/hexo2</id>
+    <link href="https://wsbblog.cn/posts/hexo2/"/>
+    <id>https://wsbblog.cn/posts/hexo2/</id>
     <published>2022-12-11T13:41:51.000Z</published>
     <updated>2023-01-09T12:49:44.128Z</updated>
     
@@ -132,8 +132,8 @@
   
   <entry>
     <title>初步构建建一个hexo博客</title>
-    <link href="https://wsbblog.cn/hexo1"/>
-    <id>https://wsbblog.cn/hexo1</id>
+    <link href="https://wsbblog.cn/posts/hexo1/"/>
+    <id>https://wsbblog.cn/posts/hexo1/</id>
     <published>2022-11-11T06:49:51.000Z</published>
     <updated>2023-01-09T12:47:26.273Z</updated>
     
@@ -151,10 +151,10 @@
   
   <entry>
     <title>周记②</title>
-    <link href="https://wsbblog.cn/undefined"/>
-    <id>https://wsbblog.cn/undefined</id>
+    <link href="https://wsbblog.cn/posts/undefined/"/>
+    <id>https://wsbblog.cn/posts/undefined/</id>
     <published>2022-10-22T11:50:52.000Z</published>
-    <updated>2023-01-16T13:19:25.739Z</updated>
+    <updated>2023-01-16T13:32:26.143Z</updated>
     
     
     <summary type="html">一次月考总结，写得不太好耶！</summary>
@@ -170,10 +170,10 @@
   
   <entry>
     <title>周记①</title>
-    <link href="https://wsbblog.cn/undefined"/>
-    <id>https://wsbblog.cn/undefined</id>
+    <link href="https://wsbblog.cn/posts/undefined/"/>
+    <id>https://wsbblog.cn/posts/undefined/</id>
     <published>2022-10-15T06:17:52.000Z</published>
-    <updated>2023-01-16T13:19:17.560Z</updated>
+    <updated>2023-01-16T13:32:45.353Z</updated>
     
     
     <summary type="html">随便写点东西，只是第一篇博客哦！</summary>
