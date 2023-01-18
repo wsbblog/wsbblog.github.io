@@ -6,7 +6,7 @@
   <link href="https://wsbblog.cn/atom.xml" rel="self"/>
   
   <link href="https://wsbblog.cn/"/>
-  <updated>2023-01-16T14:33:52.635Z</updated>
+  <updated>2023-01-18T09:19:00.015Z</updated>
   <id>https://wsbblog.cn/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浅谈巴什博奕</title>
+    <link href="https://wsbblog.cn/posts/bashiboyi/"/>
+    <id>https://wsbblog.cn/posts/bashiboyi/</id>
+    <published>2023-01-18T12:00:00.000Z</published>
+    <updated>2023-01-18T09:19:00.015Z</updated>
+    
+    
+    <summary type="html">记得还是在《天才基本法》听到的这个名称</summary>
+    
+    
+    
+    
+    <category term="数学" scheme="https://wsbblog.cn/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>申请俩免费二级域名(js.org,eu.org)</title>

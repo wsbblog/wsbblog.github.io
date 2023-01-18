@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>浅谈巴什博奕</title>
+      <link href="/posts/bashiboyi/"/>
+      <url>/posts/bashiboyi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>巴氏博弈：是一种双人博弈，在一堆总数为m的物品中轮流取物，规定每次只能取n个数，不准不取，拿到最后一个物品的为胜利。巴什博奕这个词是在暑假时在《天才基本法》上看到的，这电视剧挺不错的(至少我觉得)。<br><img src="https://tuchuang.voooe.cn/images/2023/01/18/bashiboyi1.jpg"><br><img src="https://tuchuang.voooe.cn/images/2023/01/18/bashiboyi2.jpg"><br>在小时候我经常和一些同学玩这个游戏，不懂得必胜策略的他们总是输了，当然和我玩的也并非等闲之辈，在多次的玩后他们也知道了这种博弈的必胜策略，那时不知道叫啥名字，貌似一般我们就这样玩的：<br>一共有30个数，每次说至少1个至多4个的数，谁先说到30谁赢。<br><img src="https://tuchuang.voooe.cn/images/2023/01/18/bashiboyi3.jpg"></p><h2 id="一般玩法必胜策略"><a href="#一般玩法必胜策略" class="headerlink" title="一般玩法必胜策略"></a>一般玩法必胜策略</h2><p>让我们看看这个玩法，如果一方先说到了25，那么分析一下，他就会必胜，因为无论对手说了多少，剩下的总能被那一方说到30。以此类推，到20，到15，到10….发现了什么？仅在这样的游戏规则下，先抢到5的倍数的一方将会获胜，也就是谁后一个说且每次说的都为5的倍数谁就能赢。<br>这个就是不太完整全面，换一下规则</p><h2 id="必胜策略"><a href="#必胜策略" class="headerlink" title="必胜策略"></a>必胜策略</h2><p>一共有n个数，每次说至少1个至多y个的数，谁先说到n谁赢。(n,y都为自然数，n&gt;y&gt;1)<br>因为我们不知道n是多少，</p><h3 id="当y-1能被n整除时："><a href="#当y-1能被n整除时：" class="headerlink" title="当y+1能被n整除时："></a>当y+1能被n整除时：</h3><p>这时候需对方先抢才能赢，无论对方先说的多少，你都可以抢到y+1，下次轮到你的话，就抢 刚才自己说的数+(y+1) 的数,直到抢到n为止。</p><h3 id="当y-1不能被n整除时："><a href="#当y-1不能被n整除时：" class="headerlink" title="当y+1不能被n整除时："></a>当y+1不能被n整除时：</h3><p>这时候需先抢才能赢，先抢到n÷(y+1)的余数，下次轮到你的话，就抢 刚才自己说的数+(y+1) 的数，直到抢到n为止</p><h3 id="举个栗子："><a href="#举个栗子：" class="headerlink" title="举个栗子："></a>举个栗子：</h3><p>一共50枚棋子，2个人最多取9枚，最少取1枚，取光者胜，率先抢到第10枚、第20枚、第30枚、第40枚，必胜。<br>一共51枚棋子，2个人最多取9枚，最少取1枚，取光者胜，率先抢到第1枚、第11枚、第21枚、第31枚、第41枚，必胜。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>申请俩免费二级域名(js.org,eu.org)</title>
       <link href="/posts/yuming/"/>
       <url>/posts/yuming/</url>
