@@ -31,14 +31,12 @@ var newYear = () => {
 
             // 大于一天倒计时
             if (second > 86400) {
-                let d = nol(parseInt(second / 86000));
-                second %= 86000
                 let h = nol(parseInt(second / 3600));
                 second %= 3600;
                 let m = nol(parseInt(second / 60));
                 second %= 60;
                 let s = nol(second);
-                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${d}天${h}时${m}分${s}秒</span></spa0on>`;
+                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}时${m}分${s}秒</span></spa0on>`;
                 // 计时
                 newYearTimer = setTimeout(time, 1000);
             }
