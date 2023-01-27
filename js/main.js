@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
           }
         } else {
           if (currentTop === 0) {
-            $header.classList.remove('nav-fixed', 'nav-visible')
+            $header.classList.remove('nav-visible')
           }
           $rightside.style.cssText = "opacity: ''; transform: ''"
         }
