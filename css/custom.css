@@ -225,6 +225,38 @@
     -ms-transition: none!important;
     -o-transition: none!important;
     }
-    
+    #footer-wrap {
+      color: var(--Jay-fontcolor)
+  }
+  
+  #footer-wrap a {
+      color: var(--Jay-fontcolor);
+      height: 44px;
+      line-height: 36px
+  }
+  
+  #footer-wrap a:hover {
+      color: var(--Jay-hovertext);
+      background-color: var(--Jay-none)
+  }
+  
+  div#footer_deal {
+      justify-content: center;
+      display: flex;
+      padding-top: 2rem;
+      align-items: center
+  }
+  
+  @media screen and (max-width: 768px) {
+      img.footer_mini_logo {
+          display: none
+      }
+  
+      div#footer_deal {
+          flex-wrap: wrap;
+          flex-direction: row
+      }
+  }
   
   
+ 
