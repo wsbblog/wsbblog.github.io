@@ -6,7 +6,7 @@
   <link href="https://wsbblog.cn/atom.xml" rel="self"/>
   
   <link href="https://wsbblog.cn/"/>
-  <updated>2023-01-18T09:19:00.015Z</updated>
+  <updated>2023-02-10T12:42:54.876Z</updated>
   <id>https://wsbblog.cn/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周记③</title>
+    <link href="https://wsbblog.cn/posts/zhouji3/"/>
+    <id>https://wsbblog.cn/posts/zhouji3/</id>
+    <published>2023-02-10T11:50:52.000Z</published>
+    <updated>2023-02-10T12:42:54.876Z</updated>
+    
+    
+    <summary type="html">随便写写！</summary>
+    
+    
+    
+    
+    <category term="周记" scheme="https://wsbblog.cn/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+    <category term="校园" scheme="https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>浅谈巴什博奕</title>
@@ -168,10 +187,10 @@
   
   <entry>
     <title>周记②</title>
-    <link href="https://wsbblog.cn/posts/undefined/"/>
-    <id>https://wsbblog.cn/posts/undefined/</id>
+    <link href="https://wsbblog.cn/posts/zhouji2/"/>
+    <id>https://wsbblog.cn/posts/zhouji2/</id>
     <published>2022-10-22T11:50:52.000Z</published>
-    <updated>2023-01-16T13:32:26.143Z</updated>
+    <updated>2023-02-10T12:43:43.003Z</updated>
     
     
     <summary type="html">一次月考总结，写得不太好耶！</summary>
@@ -187,10 +206,10 @@
   
   <entry>
     <title>周记①</title>
-    <link href="https://wsbblog.cn/posts/undefined/"/>
-    <id>https://wsbblog.cn/posts/undefined/</id>
+    <link href="https://wsbblog.cn/posts/zhouji1/"/>
+    <id>https://wsbblog.cn/posts/zhouji1/</id>
     <published>2022-10-15T06:17:52.000Z</published>
-    <updated>2023-01-16T13:32:45.353Z</updated>
+    <updated>2023-02-10T12:43:38.013Z</updated>
     
     
     <summary type="html">随便写点东西，只是第一篇博客哦！</summary>
