@@ -6,7 +6,7 @@
   <link href="https://wsbblog.cn/atom.xml" rel="self"/>
   
   <link href="https://wsbblog.cn/"/>
-  <updated>2023-03-10T12:46:03.482Z</updated>
+  <updated>2023-03-24T07:51:49.581Z</updated>
   <id>https://wsbblog.cn/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中二作文集2</title>
+    <link href="https://wsbblog.cn/posts/zuowen2/"/>
+    <id>https://wsbblog.cn/posts/zuowen2/</id>
+    <published>2023-03-24T07:20:00.000Z</published>
+    <updated>2023-03-24T07:51:49.581Z</updated>
+    
+    
+    <summary type="html">中二极了！</summary>
+    
+    
+    
+    
+    <category term="校园" scheme="https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>B13</title>
@@ -34,11 +51,11 @@
   </entry>
   
   <entry>
-    <title>作文集</title>
-    <link href="https://wsbblog.cn/posts/zuowen/"/>
-    <id>https://wsbblog.cn/posts/zuowen/</id>
+    <title>中二作文集1</title>
+    <link href="https://wsbblog.cn/posts/zuowen1/"/>
+    <id>https://wsbblog.cn/posts/zuowen1/</id>
     <published>2023-02-24T07:20:00.000Z</published>
-    <updated>2023-02-24T09:50:48.391Z</updated>
+    <updated>2023-03-24T07:47:22.596Z</updated>
     
     
     <summary type="html">把以前瞎写的作文汇总起来</summary>

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wsbblog.cn/posts/zuowen2/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wsbblog.cn/posts/zuowen1/</loc>
+    
+    <lastmod>2023-03-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wsbblog.cn/shuoshuo/index.html</loc>
     
     <lastmod>2023-03-12</lastmod>
@@ -30,15 +48,6 @@
   
   <url>
     <loc>https://wsbblog.cn/reward/index.html</loc>
-    
-    <lastmod>2023-02-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wsbblog.cn/posts/zuowen/</loc>
     
     <lastmod>2023-02-24</lastmod>
     
