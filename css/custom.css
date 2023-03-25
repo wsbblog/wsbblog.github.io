@@ -309,7 +309,7 @@
   }
   
   #anMusic-page ol > li:hover {
-    background: #ecd3d333;
+    background: #f8f6f633;
     border-radius: 6px;
   }
   #anMusic-page .aplayer-pic {
@@ -367,7 +367,7 @@
     margin: 0 160px 0 150px;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-played {
-    background: var(--anzhiyu-white) !important;
+    background: #fff !important;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-thumb {
     -webkit-transform: none;
@@ -416,7 +416,7 @@
   }
   
   #anMusic-page .aplayer-info .aplayer-time .aplayer-icon path {
-    fill: var(--anzhiyu-white);
+    fill: #fff;
     opacity: 0.8;
   }
   
@@ -434,7 +434,7 @@
     font-size: 14px;
   }
   #anMusic-page ol > li.aplayer-list-light {
-    background: rgb(255 255 255 / 20%);
+    background: rgba(243, 236, 236, 0.2);
     border-radius: 6px;
   }
   
