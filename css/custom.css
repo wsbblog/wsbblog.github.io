@@ -621,3 +621,10 @@
       left: -66px;
     }
   }
+
+  #sidebar #sidebar-menus {
+    background-image: url(https://tuchuang.voooe.cn/images/2023/04/28/IMG_20230428_163805.md.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 300px 750px;
+  }
