@@ -90,29 +90,8 @@
   padding: 4px;
   border-radius: 4px;
 }
-/* 页脚与头图透明 */
-#footer {
-  background: transparent !important;
-}
-#page-header {
-  background: transparent !important;
-}
 
-/* 白天模式遮罩透明 */
-#footer::before {
-  background: transparent !important;
-}
-#page-header::before {
-  background: transparent !important;
-}
 
-/* 夜间模式遮罩透明 */
-[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}
 /* 设置文字内容 :nth-child(1)的作用是选择第几个 */
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
     content: '输入QQ号会自动获取昵称和头像🐧';
@@ -628,3 +607,100 @@
     background-attachment: inherit;
     background-size: 300px 230px;
   }
+/* 波浪css */
+.main-hero-waves-area {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -11px;
+  z-index: 5;
+}
+.waves-area .waves-svg {
+  width: 100%;
+  height: 5rem;
+}
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #f7f9febd;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #f7f9fe82;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #f7f9fe36;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #f7f9fe;
+}
+/* 黑色模式背景 */
+[data-theme="dark"] .parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+  fill: #f7f9febd;
+}
+[data-theme="dark"] .parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+  fill: #f7f9fe82;
+}
+[data-theme="dark"] .parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+  fill: #f7f9fe36;
+}
+[data-theme="dark"] .parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+  fill: #f7f9fe;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves-area .waves-svg {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+/* 返回顶部 */
+
+button#go-up #percent {
+  display: none;
+  font-weight: bold;
+  font-size: 15px !important;
+}
+
+button#go-up span:nth-child(2) {
+  font-size: 12px!important;
+  margin-right: -1px;
+}
+
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+
+button#go-up:hover i {
+  display: block !important;
+}
+
+button#go-up:hover #percent {
+  display: none !important;
+}
