@@ -25,13 +25,13 @@
   }
   
   body:has(#anMusic-page) {
-    background: rgb(13, 13, 13);
+    background: rgb(255, 255, 255);
   }
   
   #anMusic-page meting-js .aplayer {
     display: flex;
     flex-direction: row-reverse;
-    background: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
     border: none;
     box-shadow: none;
   }
@@ -84,7 +84,7 @@
   #anMusic-page .aplayer-info .aplayer-lrc {
     height: 800%;
     margin-top: 80px;
-    mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #0000, #0000);
+    mask-image: linear-gradient(to bottom,rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255)0,rgb(255,255,255)0);
   }
   #anMusic-page .aplayer-info .aplayer-lrc p {
     font-size: 14px;
@@ -296,7 +296,7 @@
       height: auto;
       max-height: 200%;
       min-height: 100%;
-      mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #0000, #0000);
+      mask-image: linear-gradient(to bottom, rgb(255,255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255));
     }
     #anMusic-page .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
       color: #33a673;
