@@ -25,13 +25,13 @@
   }
   
   body:has(#anMusic-page) {
-    background: rgb(255, 255, 255);
+    background: rgb(13, 13, 13);
   }
   
   #anMusic-page meting-js .aplayer {
     display: flex;
     flex-direction: row-reverse;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(0,0,0,0);
     border: none;
     box-shadow: none;
   }
@@ -84,7 +84,7 @@
   #anMusic-page .aplayer-info .aplayer-lrc {
     height: 800%;
     margin-top: 80px;
-    mask-image: linear-gradient(to bottom,rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255),rgb(255,255,255)0,rgb(255,255,255));
+    mask-image: linear-gradient(to bottom, #000, #000, #000, #000, #000, #000, #000, #000, #000, #000, #0000, #0000);
   }
   #anMusic-page .aplayer-info .aplayer-lrc p {
     font-size: 14px;
@@ -108,7 +108,7 @@
     margin: 0 160px 0 150px;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-played {
-    background: var(--theme-white) !important;
+    background: var(--anzhiyu-white) !important;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-thumb {
     -webkit-transform: none;
@@ -157,7 +157,7 @@
   }
   
   #anMusic-page .aplayer-info .aplayer-time .aplayer-icon path {
-    fill: var(--theme-white);
+    fill: var(--font-color);
     opacity: 0.8;
   }
   
@@ -180,7 +180,7 @@
   }
   
   #anMusic-page ol > li span {
-    color: var(--theme-white);
+    color: var(--anzhiyu-white);
   }
   
   #anMusic-page ol > li.aplayer-list-light .aplayer-list-cur {
@@ -199,11 +199,11 @@
   
   .page:has(#anMusic-page) #page-header.not-top-img #nav a,
   .page:has(#anMusic-page) #page-header #nav .back-home-button {
-    color: var(--theme-white);
+    color: var(--anzhiyu-white);
   }
   
   body:has(#anMusic-page) .s-sticker div {
-    color: var(--theme-white) !important;
+    color: var(--anzhiyu-white) !important;
   }
   
   body:has(#anMusic-page) .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon.aplayer-icon-loop {
@@ -296,7 +296,7 @@
       height: auto;
       max-height: 200%;
       min-height: 100%;
-      mask-image: linear-gradient(to bottom, rgb(255,255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255), rgba(255, 255, 255));
+      mask-image: linear-gradient(to bottom, rgb(255,255,255), rgb(255,255,255), rgb(255,255,255), rgb(255,255,255), rgb(255,255,255)0, rgb(255,255,255)0);
     }
     #anMusic-page .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
       color: #33a673;
