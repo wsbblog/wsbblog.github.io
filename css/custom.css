@@ -288,7 +288,7 @@
   }
   
   #anMusic-page ol > li:hover {
-    background: #f8f6f633;
+    background: #ffffff33;
     border-radius: 6px;
   }
   #anMusic-page .aplayer-pic {
@@ -346,7 +346,7 @@
     margin: 0 160px 0 150px;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-played {
-    background: #fff !important;
+    background: var(--anzhiyu-white) !important;
   }
   #anMusic-page .aplayer-info .aplayer-controller .aplayer-thumb {
     -webkit-transform: none;
@@ -395,7 +395,7 @@
   }
   
   #anMusic-page .aplayer-info .aplayer-time .aplayer-icon path {
-    fill: #fff;
+    fill: var(--anzhiyu-white);
     opacity: 0.8;
   }
   
@@ -413,7 +413,7 @@
     font-size: 14px;
   }
   #anMusic-page ol > li.aplayer-list-light {
-    background: rgba(243, 236, 236, 0.2);
+    background: rgb(255 255 255 / 20%);
     border-radius: 6px;
   }
   
@@ -710,30 +710,5 @@ button#go-up:hover #percent {
   --icat-gl-size: 16px!important;
 }
 
-#welcome-info {
-  overflow: hidden;
-  --icat-card-welcome: #49b1f5;
-}
-#welcome-info .welcome-time {
-  width: 100%;
-  margin: 12px 0 0;
-  display: inline-flex;
-}
-#welcome-info .welcome-message {
-  width: 100%;
-  margin-bottom: 8px;
-  display: inline-flex;
-}
-#welcome-info .welcome-region {
-  background: var(--icat-background);
-  border: var(--style-border);
-  color: var(--icat-fontcolor);
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  margin: 6px 0;
-}
-
-/* 欢迎信息栏样式 */
+/* 公告顶部欢迎信息 */
 
