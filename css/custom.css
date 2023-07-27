@@ -703,7 +703,14 @@ button#go-up:hover i {
 
 button#go-up:hover #percent {
   display: none !important;
-}#welcome-info {
+}
+#welcome-info {
+  border-radius: 14px;
+  --icat-ip-color: #49B1F5;
+  --icat-gl-size: 16px!important;
+}
+
+#welcome-info {
   overflow: hidden;
   --icat-card-welcome: #49b1f5;
 }
@@ -729,3 +736,4 @@ button#go-up:hover #percent {
 }
 
 /* 欢迎信息栏样式 */
+
