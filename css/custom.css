@@ -1,5 +1,5 @@
 .loading-img {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/12/wsb.png) no-repeat center center;
+  background: url(https://tuchuangs.com/imgs/2023/08/04/adf639cbae31054c.png) no-repeat center center;
   background-size: cover;
 }
 /* 翻页按钮居中 */
@@ -9,13 +9,13 @@
   }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/04/28/IMG_20230428_163805.png);
+  background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/04/28/IMG_20230428_163805.png);
+  background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -238,7 +238,7 @@
   }
 
   #sidebar #sidebar-menus {
-    background-image: url(https://tuchuang.voooe.cn/images/2023/04/28/IMG_20230428_163805.md.png);
+    background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 300px 230px;
