@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'wsb';
     /* 字体名自定义即可 */
-    src: url('https://jsd.onmicrosoft.cn/npm/wsbziti@1.0.0/%E4%BA%91%E5%B3%B0%E5%AF%92%E8%9D%89%E4%BD%93.ttf');
+    src: url('https://jsd.onmicrosoft.cn/npm/wsbziti@1.0.1/%E4%BA%91%E5%B3%B0%E5%AF%92%E8%9D%89%E4%BD%93.ttf');
     /* 字体文件路径 */
     font-display: swap;
 }
