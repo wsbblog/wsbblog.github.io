@@ -463,3 +463,12 @@ body::after {
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-card-border: #42444a;
 }
+.post-reward .reward-button {
+  border-radius: 20px; /* 圆角 */
+}
+.post .post-copyright {
+  border-radius: 20px; /* 圆角 */
+}
+.relatedPosts > .relatedPosts-list > div img {
+  border-radius: 20px; /* 圆角 */
+}
