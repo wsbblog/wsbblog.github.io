@@ -338,6 +338,7 @@ button#go-up:hover #percent {
   --icat-ip-color: #49B1F5;
   --icat-gl-size: 16px!important;
 }
+
 .bottom-bar {
   position: fixed;
   bottom: 20px; /* 距离底部的距离 */
@@ -471,4 +472,12 @@ body::after {
 }
 .relatedPosts > .relatedPosts-list > div img {
   border-radius: 20px; /* 圆角 */
+}
+
+#aside-content .card-info #card-info-btn {
+  border-radius: 9px; /* 圆角 */
+}
+
+.sidebar-site-data a:nth-child(3) {
+  display: none;
 }
