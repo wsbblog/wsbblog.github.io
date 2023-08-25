@@ -25,6 +25,7 @@ https://wsbblog.cn/posts/hexo3/
 https://wsbblog.cn/
 https://wsbblog.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/
 https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/
+https://wsbblog.cn/tags/%E6%97%85%E6%B8%B8/
 https://wsbblog.cn/tags/%E5%91%A8%E8%AE%B0/
 https://wsbblog.cn/tags/%E6%95%99%E7%A8%8B/
 https://wsbblog.cn/tags/butterfly/
@@ -34,4 +35,3 @@ https://wsbblog.cn/tags/%E7%81%AB%E5%BD%B1/
 https://wsbblog.cn/tags/%E5%9F%9F%E5%90%8D/
 https://wsbblog.cn/tags/%E7%99%BD%E5%AB%96/
 https://wsbblog.cn/tags/photoshop/
-https://wsbblog.cn/tags/%E6%97%85%E6%B8%B8/
