@@ -6,7 +6,7 @@
   <link href="https://wsbblog.cn/atom.xml" rel="self"/>
   
   <link href="https://wsbblog.cn/"/>
-  <updated>2023-11-04T08:51:32.580Z</updated>
+  <updated>2023-12-31T15:05:00.540Z</updated>
   <id>https://wsbblog.cn/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2023年度总结</title>
+    <link href="https://wsbblog.cn/posts/year2023/"/>
+    <id>https://wsbblog.cn/posts/year2023/</id>
+    <published>2023-12-31T15:05:00.000Z</published>
+    <updated>2023-12-31T15:05:00.540Z</updated>
+    
+    
+    <summary type="html">真不容易啊，又活了一年</summary>
+    
+    
+    
+    
+    <category term="年度总结" scheme="https://wsbblog.cn/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>演讲？可能吧</title>
@@ -347,25 +364,6 @@
     
     
     <summary type="html">一次月考总结，写得不太好耶！</summary>
-    
-    
-    
-    
-    <category term="校园" scheme="https://wsbblog.cn/tags/%E6%A0%A1%E5%9B%AD/"/>
-    
-    <category term="周记" scheme="https://wsbblog.cn/tags/%E5%91%A8%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>周记①</title>
-    <link href="https://wsbblog.cn/posts/zhouji1/"/>
-    <id>https://wsbblog.cn/posts/zhouji1/</id>
-    <published>2022-10-15T06:17:52.000Z</published>
-    <updated>2023-02-10T12:43:38.013Z</updated>
-    
-    
-    <summary type="html">随便写点东西，只是第一篇博客哦！</summary>
     
     
     
