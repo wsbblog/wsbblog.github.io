@@ -14,7 +14,7 @@ function reward(){
         Swal.fire({
           title: '感谢您',
           html: '请打开微信 <b>[扫一扫]</b> 以充电',
-          imageUrl: 'https://preview.cloud.189.cn/image/imageAction?param=923C5847721EDFE2681A37C12A10D6F47039ED62FC9B5C82612F32E5A340B75412FF53A3CB77D0CB286AF52DBFC29AAE3D6EB82631BBCABF435D1FBE17CF0623B0D477F350ED1D67DCB90D71749FEE82DE5ACBF3E4F8C2320556E96250CB92F633F611850D378F3177BD0BB482B4F6004D0CFC22',
+          imageUrl: '/images/wsb2.webp',
           imageWidth: 175,
           imageHeight: 175,
           imageAlt: 'Custom image'

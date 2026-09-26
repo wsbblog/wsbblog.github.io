@@ -1,5 +1,5 @@
 .loading-img {
-  background: url(https://tuchuangs.com/imgs/2023/08/04/adf639cbae31054c.png) no-repeat center center;
+  background: url(/images/yxllogo.webp) no-repeat center center;
   background-size: cover;
 }
 /* 翻页按钮居中 */
@@ -9,13 +9,13 @@
   }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
+  background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
+  background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -231,7 +231,7 @@
   }
 
   #sidebar #sidebar-menus {
-    background-image: url(https://tuchuangs.com/imgs/2023/08/04/827ae2230a0867a4.png);
+    background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 300px 230px;
