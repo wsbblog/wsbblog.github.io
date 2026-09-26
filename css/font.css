@@ -11,3 +11,22 @@ body,
     font-family: wsb !important;
     font-weight: bold
 }
+
+/* 恢复 Font Awesome 图标字体（避免被 wsb 行楷覆盖导致图标空白） */
+.fas,
+i[class*="fa-solid"] {
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 900 !important;
+}
+
+.far,
+i[class*="fa-regular"] {
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 400 !important;
+}
+
+.fab,
+i[class*="fa-brands"] {
+    font-family: 'Font Awesome 6 Brands' !important;
+    font-weight: 400 !important;
+}
