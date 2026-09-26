@@ -1,5 +1,5 @@
 .loading-img {
-  background: url(/images/yxllogo.webp) no-repeat center center;
+  background: url(/images/wsb.webp) no-repeat center center;
   background-size: cover;
 }
 /* 翻页按钮居中 */
@@ -9,13 +9,13 @@
   }
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
+  background-image: url(/images/zhuye.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
+  background-image: url(/images/zhuye.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
@@ -231,7 +231,7 @@
   }
 
   #sidebar #sidebar-menus {
-    background-image: url(/images/0432a40b6ab749f8ae473d5c7e9ce12a.webp);
+    background-image: url(/images/zhuye.webp);
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 300px 230px;
