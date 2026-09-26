@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://wsbblog.cn/posts/photoshop/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
     <loc>https://wsbblog.cn/posts/year2022/</loc>
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
     <loc>https://wsbblog.cn/posts/year2023/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wsbblog.cn/posts/7nianji/</loc>
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
@@ -25,7 +33,11 @@
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
-    <loc>https://wsbblog.cn/posts/7nianji/</loc>
+    <loc>https://wsbblog.cn/posts/zhouji1/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://wsbblog.cn/posts/zhouji2/</loc>
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
@@ -37,15 +49,7 @@
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
-    <loc>https://wsbblog.cn/posts/zhouji1/</loc>
-    <lastmod>2026-09-26</lastmod>
-  </url>
-  <url>
     <loc>https://wsbblog.cn/posts/hexo2/</loc>
-    <lastmod>2026-09-26</lastmod>
-  </url>
-  <url>
-    <loc>https://wsbblog.cn/posts/zhouji2/</loc>
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
@@ -78,10 +82,6 @@
   </url>
   <url>
     <loc>https://wsbblog.cn/posts/zhiqian/</loc>
-    <lastmod>2026-09-26</lastmod>
-  </url>
-  <url>
-    <loc>https://wsbblog.cn/posts/photoshop/</loc>
     <lastmod>2026-09-26</lastmod>
   </url>
   <url>
